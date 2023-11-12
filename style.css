@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d2e3c8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+  
+  .container {
+    border-color: #86a789;
+    border-radius: 0.5rem;
+    width: 590px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  .header {
+    padding: 15px;
+    color: #86a789;
+    background-color: #ebf3e8;
+    border-radius: 0.5rem;
+  }
+  
+  .title {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  
+  .title i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .description {
+    font-size: 13px;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .card {
+    background-color: #86a789;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .input-control {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 10px;
+  }
+  ::placeholder {
+    color: #86a789;
+    font-size: 13px;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #86a789;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .teks-orange {
+    color: green;
+    font-size: 20px;
+  }
+  .teks-red {
+    color: red;
+    font-size: 20px;
+  }
+  
+  /* .task-item .done div span {
+      text-decoration: line-through;
+     color: #86A789;
+  } */
+  .done {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+  }
+  
